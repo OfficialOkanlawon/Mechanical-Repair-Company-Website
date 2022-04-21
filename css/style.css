@@ -1,0 +1,118 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: azure;
+    /* width: 80%;
+    margin: 0 auto; */
+}
+
+.content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 10px;
+}
+
+.head {
+    width: 80%;
+    margin: 0 auto;
+    
+}
+
+.right {
+    display: flex;
+}
+
+.navigation {
+    display: flex;
+}
+
+.right ul {
+    list-style: none;
+    display: flex;
+}
+
+.right ul li {
+    margin-right: 20px;
+    font-style: monospace;
+}
+.right ul li a {
+    text-decoration: none;
+    
+}
+.road-assistance {
+    display: flex;
+    padding-right: 20px;
+} 
+
+.road-assistance .icon {
+    padding-right: 10px;
+}
+
+.hero-section {
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 80px;
+    /* display: flex;
+    justify-content: space-between;
+    margin: 0 auto; */
+}
+
+.body {
+    display: flex;
+    justify-content:space-between;
+}
+
+#button {
+    background-color: orangered;
+    border: none;
+    color: white;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 5px 5px 5px 5px;
+    /* cursor: pointer; */
+}
+#butt {
+    padding-top: 20px;
+}
+
+.wordings {
+    padding-top: 140px;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+.open {
+    display: flex;
+    padding-top: 20px;
+    padding-right: 30px;
+}
+
+/* .open .icon {
+    padding-top: 5px;
+} */
+
+/* .open .open-content {
+    margin-left: 10px;
+    padding-left: 20px;
+} */
+.picture {
+    display: flex;
+}
+#quick {
+    /* padding-top: 50px; */
+    color: black;
+    border: 1px solid white;
+    margin-bottom: 50px;
+}
+
+.picture p {
+    padding-bottom: 500px;
+    margin-bottom: 50px;
+}
